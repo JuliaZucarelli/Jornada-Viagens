@@ -20,8 +20,22 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
     display: block;
+    position: absolute;
+    /* top: 100%; */
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-tertiary-color);
 }
 
 nav {
     display: none;
+}
+
+.list-links {
+    list-style: none;
+}
+
+.list-links li a {
+    color: var(--text-secundary-color);
+    text-decoration: none;
 }
