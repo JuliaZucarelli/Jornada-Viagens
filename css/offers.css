@@ -1,3 +1,10 @@
+.offers-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
 .card {
     color: var(--text-secundary-color);
     background-color: black;
@@ -34,7 +41,7 @@
     font-size: 32px;
 
     margin-top: 24px;
-    display: inline-block;
+    display: block;
 }
 
 .card.japao {
@@ -57,18 +64,29 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 768px) {
+    .offers-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
 @media screen and (min-width: 1024px) {
     .card {
+        width: 420px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
         width: 588px;
-        height: 308px;
     }
+}
 
-    .card header h3 {
-        font-size: 48px;
-
+@media screen and (min-width: 1920px) {
+    .offers-card {
+        width: 1250px;
+        margin: 0 auto;
     }
-
-    .card header span {
-        font-size: 40px;
-    }  
 }
