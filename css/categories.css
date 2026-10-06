@@ -18,11 +18,13 @@
   color: var(--text-primary-color);
 }
 
+.categories-cards .card img {
+  display: block;
+  margin: 0 auto 24px;
+}
+
 .categories-cards .card.single-line {
   padding-top: 50px;
-}
-.categories-cards .card.single-line.transfer img {
-  margin: 10px 0 20px;
 }
 
 @media screen and (min-width: 768px) {
