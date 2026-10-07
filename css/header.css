@@ -1,5 +1,6 @@
 .main-header {
   background-color: var(--bg-tertiary-color);
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -95,7 +96,7 @@ nav {
     display: none;
   }
   .navigation-menu a:hover {
-    color: var(--primary-color);
+    color: var(--button-primary-color);
   }
 }
 
