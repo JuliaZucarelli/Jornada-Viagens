@@ -32,7 +32,7 @@
 
 .travel-packages .hero-img {
     height: 460px;
-    background: url(../img/japan-bg-hero-mobile.jpg) no-repeat;
+    background: url(../img/travel-packages/japan-bg-hero-mobile.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -93,7 +93,7 @@
     }
 
     .travel-packages .hero-img {
-        background: url(../img/japan-bg-hero-tablet.jpg) no-repeat;
+        background: url(../img/travel-packages/japan-bg-hero-tablet.jpg) no-repeat;
         background-size: cover;
         height: 620px;
     }
@@ -131,7 +131,7 @@
     }
 
     .travel-packages .hero-img {
-        background: url(../img/japan-bg-hero-desk.jpg) no-repeat;
+        background: url(../img/travel-packages/japan-bg-hero-desk.jpg) no-repeat;
         background-size: cover;
         height: 620px;
     }
