@@ -74,7 +74,7 @@
     width: 1200px;
   }
 
-  .destination-item {
+  .destination-items {
     flex-direction: row;
   }
 }
